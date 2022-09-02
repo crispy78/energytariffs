@@ -6,8 +6,8 @@
 		"contract_URL": "https://www.budgetthuis.nl/energie/docs/BE_Modelcontract.pdf",
 		"country": "Netherlands",
 		"currency": "€",
-		"province": "Gelderland",
-		"zipcode": "7323",
+		"province": "",
+		"zipcode": "",
 		"tariffs": {
 			"electrics": {
 				"units_and_costs": {
