@@ -3,7 +3,7 @@
 		"Supplier": "Budget Energie",
 		"URL": "https://www.budgetthuis.nl/energie/",
 		"contract_type": "modelcontract",
-		"contract_URL": "https://www.budgetthuis.nl/energie/docs/BE_Modelcontract.pdf",
+		"tarieven_URL": "https://www.budgetthuis.nl/energie/docs/BE_Modelcontract.pdf",
 		"country": "Netherlands",
 		"currency": "€",
 		"province": "Gelderland",
@@ -81,19 +81,19 @@
 	},
 
 	"8879381c-40ea-4459-9376-ea7fafde7632": {
-		"Supplier": "Budget Energie",
-		"URL": "https://www.budgetthuis.nl/energie/",
+		"Supplier": "OM",
+		"URL": "https://www.samenom.nl/",
 		"contract_type": "modelcontract",
-		"contract_URL": "https://www.budgetthuis.nl/energie/docs/BE_Modelcontract.pdf",
+		"tarieven_URL": "https://samenom.nl/voorwaarden-documenten/Tarieven.pdf",
 		"country": "Netherlands",
 		"currency": "€",
-		"province": "Gelderland",
-		"zipcode": "7323",
+		"province": "",
+		"zipcode": "",
 		"tariffs": {
 			"electrics": {
 				"units_and_costs": {
 					"measuring_unit": "kwh",
-					"connection_costs": "5,40",
+					"connection_costs": "",
 					"connection_costs_period": "monthly",
 					"regular_scheduled_start": "7:00",
 					"regular_scheduled_end": "23:00",
@@ -105,26 +105,26 @@
 				"regular": {
 					"tariff_starting_date": "01-09-2022",
 					"tariff_end_date": "30-9-2022",
-					"allin_tariff": "0,62921",
-					"allin_tariff_return": "0,25498"
+					"allin_tariff": "0,628038",
+					"allin_tariff_return": "0,554692"
 				},
 				"offpeak": {
 					"tariff_starting_date": "01-09-2022",
 					"tariff_end_date": "30-9-2022",
-					"allin_tariff": "0,58335",
-					"allin_tariff_return": "0,23394"
+					"allin_tariff": "0,604541",
+					"allin_tariff_return": "0,531195"
 				},
 				"single": {
 					"tariff_starting_date": "01-09-2022",
 					"tariff_end_date": "30-9-2022",
-					"allin_tariff": "0,53093",
-					"allin_tariff_return": "0,48709"
+					"allin_tariff": "0,614204",
+					"allin_tariff_return": "0,324515"
 				}
 			},
 			"gas": {
 				"units_and_costs": {
 					"measuring_unit": "m³",
-					"connection_costs": "5,40",
+					"connection_costs": "",
 					"connection_costs_period": "monthly",
 					"single_scheduled_start": "0:00",
 					"single_scheduled_end": "24:00"
@@ -132,7 +132,88 @@
 				"single": {
 					"tariff_starting_date": "01-09-2022",
 					"tariff_end_date": "30-9-2022",
-					"allin_tariff": "2,29774"
+					"allin_tariff": "3,091110"
+				}
+			},
+			"district_heating": {
+				"units_and_costs": {
+					"measuring_unit": "GJ",
+					"connection_costs": "",
+					"connection_costs_period": "",
+					"single_scheduled_start": "",
+					"single_scheduled_end": ""
+				},
+				"regular": {
+					"scheduled_start": "",
+					"scheduled_end": "",
+					"tariff_starting_date": "",
+					"tariff_end_date": "",
+					"allin_tariff": ""
+				},
+				"offpeak": {
+					"scheduled_start": "",
+					"scheduled_end": "",
+					"tariff_starting_date": "",
+					"tariff_end_date": "",
+					"allin_tariff": ""
+				}
+			}
+		}
+	},
+
+	"a6a773c4-1a2d-4747-a10b-0ca7c6f4c910": {
+		"Supplier": "Gewoon Energie",
+		"URL": "https://gewoonenergie.nl/",
+		"contract_type": "modelcontract",
+		"tarieven_URL": "https://gewoonenergie.nl/wp-content/uploads/2022/08/Gewoon-Tariefblad-VAR.99.SEP-DEC.SEP22.pdf",
+		"country": "Netherlands",
+		"currency": "€",
+		"province": "",
+		"zipcode": "",
+		"tariffs": {
+			"electrics": {
+				"units_and_costs": {
+					"measuring_unit": "kwh",
+					"connection_costs": "59,00",
+					"connection_costs_period": "yearly",
+					"regular_scheduled_start": "7:00",
+					"regular_scheduled_end": "23:00",
+					"offpeak_scheduled_start": "23:00",
+					"offpeak_scheduled_end": "7:00",
+					"single_scheduled_start": "0:00",
+					"single_scheduled_end": "24:00"
+				},
+				"regular": {
+					"tariff_starting_date": "01-09-2022",
+					"tariff_end_date": "30-9-2022",
+					"allin_tariff": "0,61876",
+					"allin_tariff_return": "0,42945"
+				},
+				"offpeak": {
+					"tariff_starting_date": "01-09-2022",
+					"tariff_end_date": "30-9-2022",
+					"allin_tariff": "0,54145",
+					"allin_tariff_return": "0,42945"
+				},
+				"single": {
+					"tariff_starting_date": "01-09-2022",
+					"tariff_end_date": "30-9-2022",
+					"allin_tariff": "0,56962",
+					"allin_tariff_return": "0,45530"
+				}
+			},
+			"gas": {
+				"units_and_costs": {
+					"measuring_unit": "m³",
+					"connection_costs": "59,00",
+					"connection_costs_period": "yearly",
+					"single_scheduled_start": "0:00",
+					"single_scheduled_end": "24:00"
+				},
+				"single": {
+					"tariff_starting_date": "01-09-2022",
+					"tariff_end_date": "30-9-2022",
+					"allin_tariff": "2,06350"
 				}
 			},
 			"district_heating": {
